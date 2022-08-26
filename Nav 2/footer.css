@@ -1,5 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
+body {
+  line-height: 1.5;
+  font-family: Poppins, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .container {
   max-width: 1170px;
   margin: auto;
@@ -8,7 +19,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: #24262b;
 }
 
 ul {
@@ -70,6 +80,10 @@ ul {
   border-radius: 50px;
   color: #ffffff;
   transition: all 0.5s ease;
+}
+
+.footer-col .social-links a i {
+  padding-top: 11px;
 }
 
 .footer-col .social-links a:hover {
