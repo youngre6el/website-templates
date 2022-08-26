@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
-
 .container {
   max-width: 1170px;
   margin: auto;
@@ -9,7 +8,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: #24262b;;
+  background-color: #24262b;
 }
 
 ul {
@@ -18,7 +17,6 @@ ul {
 .footer {
   background-color: #24262b;
   padding: 70px 0;
- 
 }
 .footer-col {
   width: 25%;
@@ -31,7 +29,6 @@ ul {
   margin-bottom: 35px;
   font-weight: 500;
   position: relative;
-  
 }
 
 .footer-col h4::before {
@@ -62,36 +59,34 @@ ul {
   color: #ffffff;
   padding-left: 8px;
 }
-.footer-col .social-links a{
+.footer-col .social-links a {
   display: inline-block;
   height: 40px;
   width: 40px;
-  background-color: rgba(255,255,255,0.2);
+  background-color: rgba(255, 255, 255, 0.2);
   margin: 0 10px 10px 0;
   text-align: center;
   line-height: 40px;
-  border-radius: 50px; 
+  border-radius: 50px;
   color: #ffffff;
   transition: all 0.5s ease;
 }
 
-.footer-col .social-links a:hover{
+.footer-col .social-links a:hover {
   color: #24262b;
   background-color: #ffffff;
 }
 
-@media(max-width: 767px){
+@media (max-width: 767px) {
   .footer-col {
     width: 50%;
     margin-bottom: 30px;
   }
-
 }
 
-@media(max-width: 574px){
+@media (max-width: 574px) {
   .footer-col {
     width: 100%;
     margin-bottom: 30px;
   }
-
 }
