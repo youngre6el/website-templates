@@ -1,11 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  background-color: #24252a;
-}
+
 
 li,
 a,
@@ -18,10 +13,15 @@ button {
 }
 
 header {
+  position: fixed;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   padding: 30px 5%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #24262b;;
 }
 
 .logo {
@@ -40,7 +40,7 @@ header {
 }
 
 .nav_links li a {
-  transform: all 0.3s ease 0s;
+  transform: all 0.3s ease 0.5s;
 }
 .nav_links li a:hover {
   color: #0088a9;

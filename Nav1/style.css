@@ -71,9 +71,8 @@ button:hover {
 }
 
 .main {
-  margin-left: 124px;
-  margin-top: 200px;
-  margin-bottom: 200px;
+  margin-top: 400px;
+  justify-content: center;
   display: flex;
   flex: 1fr 1fr;
 }
@@ -88,7 +87,7 @@ button:hover {
 
 .about-summary {
   color: antiquewhite;
-  margin-left: 300px;
+  margin-left: 100px;
   justify-content: space-evenly;
 }
 
@@ -145,4 +144,10 @@ footer h4 {
   height: 24px;
   cursor: pointer;
   margin: 0px 24px;
+}
+
+.follow-me h4 {
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+
 }
