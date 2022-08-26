@@ -61,6 +61,7 @@ button:hover {
 .main {
   margin-left: 160px;
   margin-top: 300px;
+  margin-bottom: 100px;
   display: flex;
   flex: 1fr 1fr;
 }
@@ -78,4 +79,13 @@ button:hover {
   color: antiquewhite;
   margin-left: 300px;
   justify-content: space-evenly;
+}
+
+.footer {
+  display: flex;
+  color: white;
+  background-color: #0088a9;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0px;
 }
