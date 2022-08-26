@@ -4,8 +4,14 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #24252a;
 }
+
+body {
+  background-color: #24252a;
+  padding-bottom: 1000px;
+  position: relative;
+}
+
 
 li,
 a,
@@ -18,10 +24,15 @@ button {
 }
 
 header {
+  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 30px 5%;
+  background-color: #1a1b1f;
+  top: 0;
+  right: 0;
+  left: 0;
 }
 
 .logo {
@@ -29,7 +40,8 @@ header {
   height: 46px;
 }
 
-.nav_links {
+.nav_links,
+.contact-info {
   list-style: none;
 }
 
@@ -59,16 +71,15 @@ button:hover {
 }
 
 .main {
-  margin-left: 160px;
-  margin-top: 300px;
-  margin-bottom: 100px;
+  margin-left: 124px;
+  margin-top: 200px;
+  margin-bottom: 200px;
   display: flex;
   flex: 1fr 1fr;
 }
 
 .me-pic {
   height: 300px;
-
   border-radius: 300px;
   border: none;
   border-style: solid;
@@ -81,11 +92,57 @@ button:hover {
   justify-content: space-evenly;
 }
 
-.footer {
+footer {
+  position: absolute;
+  font-family: Montserrat, sans-serif;
   display: flex;
   color: white;
   background-color: #0088a9;
   align-items: center;
   justify-content: center;
   padding: 20px 0px;
+  height: 120px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+footer li {
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+}
+
+footer h4 {
+  margin-bottom: 12px;
+}
+
+.container {
+  display: flex;
+  width: 1000px;
+  justify-content: space-between;
+}
+
+.contact {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  font-size: 12px;
+}
+
+.contact img {
+  height: 80px;
+}
+
+.plus img {
+  height: 76px;
+}
+.follow-me {
+  display: flex;
+  align-items: center;
+}
+
+.social-icons img {
+  height: 24px;
+  cursor: pointer;
+  margin: 0px 24px;
 }
