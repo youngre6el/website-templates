@@ -19,7 +19,7 @@ button {
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   padding: 30px 5%;
 }
@@ -27,6 +27,7 @@ header {
 .logo {
   cursor: pointer;
   height: 46px;
+  margin-right: auto;
 }
 
 .nav_links {
@@ -46,6 +47,7 @@ header {
 }
 
 button {
+  margin-left: 20px;
   padding: 9px 25px;
   background-color: rgba(0, 136, 169, 1);
   border: none;
